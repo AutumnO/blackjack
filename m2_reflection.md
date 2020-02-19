@@ -1,0 +1,10 @@
+CS 211 - Milestone 2 Blackjack Game
+Autumn Ossello
+
+I ran into quite a bit of difficulty with Milestone 2. I wasn’t sure how to use the card game template we had finished in the first Milestone, and I didn’t understand how to synchronize Unity with my code. Adding on top of that dealing with images and values, I felt pretty lost with where to start. After completing the project I can see that writing basic pseudocode at this point might have helped, although I doubt I would have been able to successfully utilize Unity resources. 
+
+In addition to these basic issues with technical knowledge, I experienced significant events within my family that hindered my ability to complete work and attentively participate in class over the course of this project. Due to these difficulties, I felt that following a tutorial for a Unity blackjack game would be a more efficient and effective use of my time. I used Sloan Kelly’s youtube tutorial from 2015, and although I didn’t complete the basic functional requirements, I do feel that I tried my best to produce a working game that I understood and could learn from. 
+
+We used a dictionary for the deck to make attaching values to the cards more straightforward, and used a couple different debugging methods I wasn’t previously aware of. The basic functionality is there, the play again button works, I wish I had time to dive into the betting aspect, but the last two weeks have left me pretty drained. Creating the UI elements from scratch felt pretty cool, I used different graphic art, so I had to make deviations when necessary. 
+
+I definitely didn’t feel prepared coming into this milestone, and I’m not sure if that was because I didn’t absorb the previous labs as much as I could have, or if I’m just unfamiliar with the software implementation. There are still errors regarding missing GameObjects, but the first game events work as expected. I apologize for the late turn in, I will hopefully be seeing the Dean of Students within the next week to address the external influences affecting my ability to sufficiently complete classwork.
