@@ -6,19 +6,32 @@ using UnityEngine;
 public class CardStackView : MonoBehaviour
 {
     CardStack deck;
-    List<int> fetchedCards;
+    Dictionary<int, GameObject> fetchedCards;
     int lastCount;
 
     public Vector3 start;
     public float cardOffset;
+    public bool faceUp = false;
+    public bool reverseLayerOrder = false;
     public GameObject cardPreFab;
 
     void Start()
     {
-        fetchedCards = new List<int>();
+        fetchedCards = new Dictionary<int, GameObject>();
         deck = GetComponent<CardStack>();
         ShowCards();
         lastCount = deck.CardCount;
+
+        deck.CardRemoved += deck_CardRemoved;
+    }
+
+    void deck_CardRemoved(object sender, CardRemovedEventArgs e)
+    {
+        if (fetchedCards.ContainsKey(e.CardIndex))
+        {
+            Destroy(fetchedCards[e.CardIndex]);
+            fetchedCards.Remove(e.CardIndex);
+        }
     }
 
     void Update()
@@ -48,7 +61,7 @@ public class CardStackView : MonoBehaviour
     }
     void AddCard(Vector3 position, int cardIndex, int positionalIndex)
     {
-        if (fetchedCards.Contains(cardIndex))
+        if (fetchedCards.ContainsKey(cardIndex))
         {
             return;
         }
@@ -58,11 +71,20 @@ public class CardStackView : MonoBehaviour
 
         CardModel cardModel = cardCopy.GetComponent<CardModel>();
         cardModel.cardIndex = cardIndex;
-        cardModel.ToggleFace(true);
+        cardModel.ToggleFace(faceUp);
 
         SpriteRenderer spriteRenderer = cardCopy.GetComponent<SpriteRenderer>();
-        spriteRenderer.sortingOrder = positionalIndex;
+        if (reverseLayerOrder)
+        {
+            spriteRenderer.sortingOrder = 51 - positionalIndex;
+        }
+        else
+        {
+            spriteRenderer.sortingOrder = positionalIndex;
+        }
 
-        fetchedCards.Add(cardIndex);
+        fetchedCards.Add(cardIndex, cardCopy);
+
+        Debug.Log("Hand Value = " + deck.HandValue());
     }
 }

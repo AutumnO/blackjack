@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4123440871258877121
+--- !u!1 &4999104095526044043
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4123440871258877123}
-  - component: {fileID: 4123440871258877120}
-  - component: {fileID: 4123440871258877122}
-  - component: {fileID: 4123440871258877133}
+  - component: {fileID: 4999104095526044041}
+  - component: {fileID: 4999104095526044042}
+  - component: {fileID: 4999104095526044040}
+  - component: {fileID: 4999104095526044039}
   m_Layer: 0
-  m_Name: Card
+  m_Name: Card 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4123440871258877123
+--- !u!4 &4999104095526044041
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4123440871258877121}
+  m_GameObject: {fileID: 4999104095526044043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -20, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4123440871258877120
+--- !u!212 &4999104095526044042
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4123440871258877121}
+  m_GameObject: {fileID: 4999104095526044043}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -83,13 +83,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4123440871258877122
+--- !u!114 &4999104095526044040
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4123440871258877121}
+  m_GameObject: {fileID: 4999104095526044043}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9aba63138bb1f204b8f1fcf9e62e37b9, type: 3}
@@ -105,10 +105,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 939bae17f5178fe4fa9ad89d3d5d5f24, type: 3}
   - {fileID: 21300000, guid: 5bc14cc1705b2024e9754859ad13e276, type: 3}
   - {fileID: 21300000, guid: fe10f2cf27facb941ae664814a317246, type: 3}
-  - {fileID: 21300000, guid: 8c5076bf136684c4782d341d606e15dd, type: 3}
   - {fileID: 21300000, guid: c224ecde1be12a045a4e5d9943426a84, type: 3}
-  - {fileID: 21300000, guid: 9124d68ae6039364abd5e25df41be047, type: 3}
   - {fileID: 21300000, guid: 54207838f0b352c45a56379e03b92a3e, type: 3}
+  - {fileID: 21300000, guid: 9124d68ae6039364abd5e25df41be047, type: 3}
+  - {fileID: 21300000, guid: 8c5076bf136684c4782d341d606e15dd, type: 3}
   - {fileID: 21300000, guid: e5c8f52bf00fdcb499b03932db88b891, type: 3}
   - {fileID: 21300000, guid: da5a7773e00f1f842997f6e4408a06b9, type: 3}
   - {fileID: 21300000, guid: daa0d62b8e495ea48b35e45e6ac3351d, type: 3}
@@ -118,10 +118,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3e6e931e1253b614cbaed0505fe07d87, type: 3}
   - {fileID: 21300000, guid: c5bae1ce2a0dfc04bba33e06c6fdf1c7, type: 3}
   - {fileID: 21300000, guid: c8ba6fcbd22cf3e48b92952882cc381a, type: 3}
-  - {fileID: 21300000, guid: 0943c60e6fa973244acf1b44911a4181, type: 3}
   - {fileID: 21300000, guid: d52a0944d5e69eb42adf350eeeeb751c, type: 3}
-  - {fileID: 21300000, guid: 58c795b37a85f5549a0c04cb158a1685, type: 3}
   - {fileID: 21300000, guid: fc9c572f04e1c084591987b9643a36ea, type: 3}
+  - {fileID: 21300000, guid: 58c795b37a85f5549a0c04cb158a1685, type: 3}
+  - {fileID: 21300000, guid: 0943c60e6fa973244acf1b44911a4181, type: 3}
   - {fileID: 21300000, guid: 9dc74a2c750b2f240ab79acaaaae8399, type: 3}
   - {fileID: 21300000, guid: 4ced2faa2549c5e488a210dac33f9afd, type: 3}
   - {fileID: 21300000, guid: 8ac6167e660584549827acd71375e491, type: 3}
@@ -131,10 +131,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8ff49f26c8721f04084d19983bd9c45a, type: 3}
   - {fileID: 21300000, guid: 313111ffb17056e409445ab1cf2123b4, type: 3}
   - {fileID: 21300000, guid: 4d713aa42649c4449a1d60b520e89d3a, type: 3}
-  - {fileID: 21300000, guid: 33462bee31e78b94988cb8bb075833d1, type: 3}
   - {fileID: 21300000, guid: 273cdc487bcfc764f96850d84e6e3621, type: 3}
-  - {fileID: 21300000, guid: 6001e316025cdf842a8b67033dee9d69, type: 3}
   - {fileID: 21300000, guid: ce649dc5b3c0a864ab2b58909f1b9687, type: 3}
+  - {fileID: 21300000, guid: 6001e316025cdf842a8b67033dee9d69, type: 3}
+  - {fileID: 21300000, guid: 33462bee31e78b94988cb8bb075833d1, type: 3}
   - {fileID: 21300000, guid: 43e96ad0967fbf24ebab8b719f5619f0, type: 3}
   - {fileID: 21300000, guid: 253d3936b454c494e97e3926f1284f87, type: 3}
   - {fileID: 21300000, guid: c904ff20c2f47f341a108e6f0f30b876, type: 3}
@@ -144,19 +144,19 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 28804fc182f207a44a748bfd3542af01, type: 3}
   - {fileID: 21300000, guid: ddd1d7b9271eaa945bc57b41ac18e4de, type: 3}
   - {fileID: 21300000, guid: 52011261e4b1c774eb8947f2cfcaf207, type: 3}
-  - {fileID: 21300000, guid: b46fd46740140dd4f81966f9a2f907b5, type: 3}
   - {fileID: 21300000, guid: 876526c890e80e548a9bd3292ce5f14b, type: 3}
-  - {fileID: 21300000, guid: a16d853bc136ba24784190148dede07c, type: 3}
   - {fileID: 21300000, guid: e4cdcf84265ab7e43ac23cea7b333ece, type: 3}
+  - {fileID: 21300000, guid: a16d853bc136ba24784190148dede07c, type: 3}
+  - {fileID: 21300000, guid: b46fd46740140dd4f81966f9a2f907b5, type: 3}
   cardBack: {fileID: 21300000, guid: a75fbf5cea4d56c409f8bbb4930b1abc, type: 3}
   cardIndex: 0
---- !u!114 &4123440871258877133
+--- !u!114 &4999104095526044039
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4123440871258877121}
+  m_GameObject: {fileID: 4999104095526044043}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca48e2a340d5c0d4d963acc7d068af98, type: 3}
